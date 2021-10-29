@@ -8,7 +8,7 @@ while True:
 
     if cliente == '1':
      valor = int(input("Qual o valor você quer investir?:  "))
-     valorm =int(input("Se você for investir todo o mês (aporte mensal), qual o valor?:  "))
+     valorm =int(input("Se você for investir todo o mês (aporte mensal), qual será o valor?:  "))
      
      
      valorp = (valorm*32) + valor
@@ -21,18 +21,18 @@ while True:
      print("-------------------------------")
      print("   RESULTADO DA SIMULAÇÃO      ")
      print("-------------------------------")    
-     print("Valor do ínicio da simulação: ", valor)
-     print("Valor investido por mês de R$", valorm,"por 32 meses")
-     print("Valor total investido: ",valorp)
+     print("Valor do ínicio da simulação: R$ ", valor)
+     print("Valor investido por mês de: R$", valorm,"em 32 meses")
+     print("Valor total investido: R$ ",valorp)
      print("-------------------------------")
-     print("Valor bruto: ", IR)
+     print("Valor bruto: R$ ", IR)
      print("-------------------------------")
      resetar = str(input("Deseja realizar outra simulação? s/n: "))
 
 
     else :
      valor = int(input("Qual o valor você quer investir?:  "))
-     valorm =int(input("Se você for investir todo o mês (aporte mensal), qual o valor?:  "))
+     valorm =int(input("Se você for investir todo o mês (aporte mensal), qual será o valor?:  "))
      
      
      valorp = (valorm*50) + valor
@@ -45,14 +45,14 @@ while True:
      print("-------------------------------")
      print("   RESULTADO DA SIMULAÇÃO      ")
      print("-------------------------------")    
-     print("Valor do ínicio da simulação: ", valor)
-     print("Valor investido por mês de R$", valorm,"por 50 meses")
-     print("Valor total investido: ",valorp)
+     print("Valor do ínicio da simulação: R$ ", valor)
+     print("Valor investido por mês: R$", valorm,"em 50 meses")
+     print("Valor total investido: R$ ",valorp)
      print("-------------------------------")
-     print("Valor bruto: ", IR)
+     print("Valor bruto: R$ ", IR)
      print("-------------------------------")
      resetar = str(input("Deseja realizar outra simulação? s/n: "))
 
      if resetar == 'n':
          break
-     print ("Programa encerrado")
+     print ("Programa encerrado !")
