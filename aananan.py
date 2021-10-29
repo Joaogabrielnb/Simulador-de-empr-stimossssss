@@ -15,8 +15,7 @@ while True:
      ir = (valorp*7.5)/100
      IR = valorp - ir
      b3 = (valorp*7.5)/100
-     lucro = (valorp*0.1081)
-     valorTotal = valorp + lucro
+     valorTotal = valorp 
      
      
      print("-------------------------------")
@@ -40,14 +39,13 @@ while True:
      ir = (valorp*7.5)/100
      IR = valorp - ir
      b3 = (valorp*7.5)/100
-     lucro = valorp*0.1081
      valorTotal = valorp + lucro
      
      
      print("-------------------------------")
      print("   RESULTADO DA SIMULAÇÃO      ")
      print("-------------------------------")    
-     print("Valor inicial: ", valor)
+     print("Valor do ínicio da simulação: ", valor)
      print("Valor investido por mês de R$", valorm,"por 50 meses")
      print("Valor total investido: ",valorp)
      print("-------------------------------")
