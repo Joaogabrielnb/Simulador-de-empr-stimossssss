@@ -39,7 +39,7 @@ while True:
      ir = (valorp*7.5)/100
      IR = valorp - ir
      b3 = (valorp*7.5)/100
-     valorTotal = valorp + lucro
+     valorTotal = valorp
      
      
      print("-------------------------------")
